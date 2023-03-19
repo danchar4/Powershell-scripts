@@ -1,0 +1,1 @@
+powershell -WindowStyle Minimized -Command "& {$host.ui.RawUI.WindowTitle = 'Audio Keepalive';[console]::beep(20000,5000);[System.Threading.Thread]::Sleep(1000)}"
